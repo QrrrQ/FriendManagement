@@ -19,7 +19,7 @@ type Connection struct {
 	Index    uint64
 	User1    uint64 //requestor
 	User2    uint64 //target
-	Relation int    //0 无  1 朋友 2 申请中（user1为申请人，user2为被申请人）3 block（user1为block发起人） 4 删除（一方删除即为删除）
+	Relation int    //0 无  1 朋友 2 申请中（user1为申请人，user2为被申请人）3 block（user1为block发起人） 4 删除
 	Deleted  bool
 }
 
